@@ -91,7 +91,7 @@ Secure API access is implemented using header-based API key validation to ensure
 ## 🌐 Deployment
 
 * Frontend: Vercel
-* Backend: Render
+* Backend: Vercel
 
 ---
 
