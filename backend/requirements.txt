@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+python-multipart
+# PyMuPDF for PDF extraction
+PyMuPDF
+# python-docx for DOCX extraction
+python-docx
+# easyocr for Image extraction
+easyocr
+opencV-python
+# NLP models
+spacy
+transformers
+sentence-transformers
+# RAG
+langchain
+langchain-community
+faiss-cpu
+pydantic
