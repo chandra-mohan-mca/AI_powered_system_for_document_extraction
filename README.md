@@ -1,5 +1,4 @@
-# AI_powered_system_for_document_extraction
-# 🚀 IntelliDoc AI — Advanced Document Intelligence & RAG-Powered Knowledge Extraction Platform
+# 🚀 AI powered system for document extraction
 
 ## 📌 Overview
 
