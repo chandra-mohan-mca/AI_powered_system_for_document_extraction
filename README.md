@@ -146,11 +146,3 @@ npm run dev
 ## 🏆 Conclusion
 
 IntelliDoc AI demonstrates how modern AI techniques can be integrated into a unified system to solve real-world document processing challenges efficiently and intelligently.
-
----
-
-## 👨‍💻 Author
-
-Chandramohan C
-
----
