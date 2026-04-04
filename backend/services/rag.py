@@ -9,7 +9,7 @@ import re
 
 # In-memory store for our single-document RAG during the hackathon
 vector_store = None
-rag_pipeline = pipeline("text2text-generation", model="google/flan-t5-small")
+rag_pipeline = pipeline("text2text-generation", model="google/flan-t5-large")
 
 # Load embeddings
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
