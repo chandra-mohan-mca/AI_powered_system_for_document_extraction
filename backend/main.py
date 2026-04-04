@@ -7,6 +7,8 @@ from pydantic import BaseModel
 from typing import List, Optional
 import fitz
 import docx
+import uvicorn
+import os
 
 # Setup explicit debugging logs as requested
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -101,3 +103,7 @@ async def chat_with_document(request: ChatRequest, api_key: str = Depends(get_ap
     except Exception as e:
         logger.error(f"Error formulating RAG response: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))  # important for cloud
+    uvicorn.run(app, host="0.0.0.0", port=port)
