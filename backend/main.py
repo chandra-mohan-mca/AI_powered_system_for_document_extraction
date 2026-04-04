@@ -105,5 +105,4 @@ async def chat_with_document(request: ChatRequest, api_key: str = Depends(get_ap
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))  # important for cloud
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)
