@@ -26,7 +26,7 @@ app = FastAPI(title="AI-Powered Document Analysis API")
 logger.info("Initializing FastAPI with unrestricted CORS middleware for development...")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://192.168.1.64:5173"], # Explicit origins to allow credentials securely
+    allow_origins=["*"], # Explicit origins to allow credentials securely
     allow_credentials=True,
     allow_methods=["*"], 
     allow_headers=["*"], 
