@@ -1,7 +1,7 @@
 from transformers import pipeline
 
 # Load BART summarizer model
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
 def clean_text(text: str) -> str:
     return " ".join(text.split())
