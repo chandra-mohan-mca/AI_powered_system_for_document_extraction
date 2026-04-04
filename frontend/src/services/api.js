@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000',
+  baseURL: 'https://ai-powered-system-for-document-extraction.onrender.com',
 });
 
 // Since it's a hackathon, we can hardcode the dev key or let the user supply it.
